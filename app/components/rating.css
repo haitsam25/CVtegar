@@ -1,0 +1,142 @@
+.rating-container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #000; /* Semua teks menjadi hitam */
+  }
+  
+  .rating-title {
+    text-align: center;
+    color: #000; /* Teks judul menjadi hitam */
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  .rating-form {
+    background-color: #ffffff; /* Latar belakang form menjadi putih untuk kontras yang baik */
+    padding: 20px;
+    border: 1px solid #ccc; /* Warna border lebih lembut */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sedikit bayangan untuk memberi efek mengambang */
+  }
+  
+  .form-group {
+    margin-bottom: 1.5em;
+  }
+  
+  .form-group label {
+    color: #000; /* Teks label menjadi hitam */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #4CAF50; /* Mengubah warna border ketika fokus */
+    outline: none;
+  }
+  
+  .star-rating {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .star {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc; /* Warna bintang default lebih netral */
+    transition: color 0.3s ease;
+  }
+  
+  .star:hover, .star.selected {
+    color: #FFD700; /* Warna bintang ketika disorot menjadi emas */
+  }
+  
+  .submit-button {
+    padding: 12px 20px;
+    background-color: #4CAF50; /* Warna hijau untuk tombol kirim */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+  }
+  
+  .rating-summary {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .rating-summary h3 {
+    color: #000; /* Teks ringkasan rating menjadi hitam */
+    font-size: 1.2em;
+  }
+  
+  .rating-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  .rating-bar-fill {
+    background-color: #4CAF50; /* Warna hijau untuk bar rating */
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .feedback-list {
+    margin-top: 30px;
+  }
+  
+  .feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .feedback-table th, .feedback-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    color: #000; /* Teks tabel menjadi hitam */
+    font-size: 1em;
+  }
+  
+  .feedback-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Warna merah untuk tombol hapus */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f; /* Merah lebih gelap saat hover */
+  }
+  

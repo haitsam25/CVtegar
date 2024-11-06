@@ -1,0 +1,54 @@
+/* Container utama */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Latar belakang putih */
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Border abu-abu ringan */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Judul utama */
+.title {
+    color: #333; /* Warna teks abu gelap */
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Nama profil */
+.name {
+    color: #333; /* Warna teks abu gelap */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Paragraf deskripsi */
+.description {
+    color: #555; /* Warna teks abu netral */
+    font-size: 16px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/* Gaya gambar profil */
+.fotoku {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ddd; /* Border abu-abu lembut */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    transition: transform 0.3s;
+    margin-top: 15px;
+}
+
+/* Efek hover untuk gambar */
+.fotoku:hover {
+    transform: scale(1.05); /* Sedikit memperbesar saat hover */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih tegas saat hover */
+}

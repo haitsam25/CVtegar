@@ -1,0 +1,50 @@
+.skills-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Border abu-abu ringan */
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Background terang */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #333; /* Warna teks gelap */
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /* Border tipis abu-abu terang */
+    color: #333; /* Warna teks gelap */
+    transition: background-color 0.3s;
+}
+
+.skill-item:hover {
+    background-color: #f0f0f0; /* Warna latar saat hover */
+}
+
+.skill-item:last-child {
+    border-bottom: none; /* Menghapus border di item terakhir */
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #333; /* Warna teks gelap */
+}
+
+.skill-level {
+    color: #666; /* Warna teks abu-abu sedang */
+}
